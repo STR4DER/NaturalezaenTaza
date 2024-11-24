@@ -1,0 +1,101 @@
+*{
+    margin: 0;/*establece la margen general dentro del documento*/
+    padding: 0;
+}
+header{
+    background-color: #002400;
+    height: 80px;
+    color: white;
+}
+.titulo{
+    font-family: 'tinos';
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+.menu-icon {
+    font-size: 30px;
+    float: right;
+    cursor: pointer;
+    color: white;
+    padding: 15px;
+    
+  }
+  
+  /* Estilos de la barra desplegable */
+  .side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .side-menu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .side-menu a:hover {
+    background-color: #555;
+  }
+  
+  /* Botón para cerrar la barra */
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 36px;
+  }
+  body{
+    background-color: #726953;
+  }
+  .flecha {
+    transform: rotate(90deg);
+    padding-top: 40px;
+      }
+      .subtitle{
+        font-family: 'Great Vibes', cursive;
+        font-weight: 400;
+        font-size: 100px;
+        padding: 20px;
+      }
+ .subcontent1{
+  background: url(https://media.discordapp.net/attachments/870705339027292200/1309505205636960347/IMG-20241016-WA0053.jpg?ex=6741d342&is=674081c2&hm=7bed639471eb9a4c8b79513d88895912567032ec51ddd7a3421ecc6b20c35bd4&=&format=webp&width=478&height=422);
+  background-size: cover;
+ }
+  .subcontent1, .subcontent2{
+     width: 50%;
+     text-align: center;
+     height: 78%;
+  }
+  .subcontent2{
+    float: right;
+  }
+  .footer{
+    height: 9.7%;
+    background-color: #002400;
+    color: white;
+    text-align: end;
+  }
+  .foottext{
+    padding-right: 10%;
+    padding-top: 10px;
+    font-family: 'Tinos', serif;
+    font-size: 40px;
+    color: white;
+  }
+   a{
+    text-decoration: none;
+  }
+.foottext a:hover{
+  background-color: #026d02;
+}
